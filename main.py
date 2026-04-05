@@ -44,7 +44,7 @@ def getwish():
             mukitha , kingu or kingi sitting together gossiping about our neighbours 🤣
             and watching kingus play and enjoying everyone and i will protect everyone i love my family'''}
 
-@app.get("dream")
+@app.get("/dream")
 
 def getdream():
     return{"dream" : '''show everyone , an example of love , and my small family with each
