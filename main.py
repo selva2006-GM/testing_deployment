@@ -33,3 +33,19 @@ def getlove():
 @app.get("/who")
 def getangel():
     return {"who" : "It's you my bibuuu 😘🥰💖🥰😍🥰"}
+
+@app.get("/favorite")
+def getfav():
+    return {"favorite" : "my moms warm and + now your presence in my life"}
+
+@app.get("/wish")
+def getwish():
+    return {"wish" :'''one day me you my both papas and mummys all ayu,
+            mukitha , kingu or kingi sitting together gossiping about our neighbours 🤣
+            and watching kingus play and enjoying everyone and i will protect everyone i love my family'''}
+
+@app.get("dream")
+
+def getdream():
+    return{"dream" : '''show everyone , an example of love , and my small family with each
+           day a happiest day for all no tension just joy'''}
