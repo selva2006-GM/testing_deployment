@@ -20,7 +20,7 @@ def getname():
 
 @app.get("/age")
 def getage():
-    return {"age": "21"}
+    return {"age": "19"}
 
 @app.get("/profession")
 def getpro():
